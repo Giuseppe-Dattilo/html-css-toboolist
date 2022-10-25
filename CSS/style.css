@@ -1,0 +1,154 @@
+/* CSS Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+/* Generics */
+
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+h2{
+    font-size: 17px;
+    
+}
+
+button{
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+form{
+    background-color: white;
+    padding:10px 30px;
+    margin-top: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+/* Utilities */
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+/* Heather */
+body > header{
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+    padding: 10px 0px 10px 10px;
+}
+
+/* main */
+
+main{
+    background-color: white;
+    padding: 60px 0px 2px 30px;
+    margin-top: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.add-task{
+    color: white;
+    background-color: rgb(47, 140, 253);
+    border: 1px solid rgb(47, 140, 253);
+
+}
+.add-section{
+    color: rgb(180, 180, 180);
+    border: 1px solid rgb(180, 180, 180);
+    background-color: white;
+}
+.azioni{
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 20px;
+    
+}
+.etichetta{
+    height: 20px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+
+}
+.titolo{
+    display: inline;    
+
+}
+
+.titolo::before{
+    content:'\25BC';
+    font-size: 10px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.azione:before{
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    display: inline-block;
+    background-color: white;
+    border-radius:50%;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 5px;
+    
+
+}
+
+.sezione{
+    margin-bottom: 20px;
+}
+.blue{
+    background-color: rgb(67, 170, 233);
+
+}
+.green{
+    background-color:rgb(100, 192, 170);
+}
+.orange{
+    background-color:rgb(242, 158, 51);
+}
+.red{
+    background-color: rgb(215, 99, 161);
+}
+.lightgreen{
+    background-color: rgb(187, 206, 80);
+}
+.purple{
+    background-color: rgb(154, 109, 227);
+}
+.ok:before{
+    content: '\2713';
+    color: green;
+    border: 1px solid green;
+
+}
+.ko:before{
+    content: '\2717';
+    color: red;
+    border: 1px solid red;
+    
+}
